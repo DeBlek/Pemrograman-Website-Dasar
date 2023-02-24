@@ -1,0 +1,71 @@
+.signup{
+	width : 300px;
+	box-shadow : 0 0 3px 0 rgba(0,0,0,3);
+	background : #f1f1ef;
+	padding : 20px;
+	margin : 3% auto 0;
+	text-align : center;
+	border-radius : 30px;
+}
+
+.signup h1{
+	color : #343432;
+	margin-bottom : 20px;
+	margin-top : -20px;
+}
+
+.input_box{
+	border-radius : 20px;
+	padding : 10px;
+	margin : 10px 0;
+	width : 90%;
+	border : 1px solid #999999;
+	outline : none;
+}
+
+.button_sign button:hover{
+	background-color : #737373;
+	color : white;
+}
+
+.Login{
+	width : 300px;
+	box-shadow : 0 0 3px 0 rgba(0,0,0,3);
+	background : #f1f1ef;
+	padding : 20px;
+	margin : 3% auto 0;
+	text-align : center;
+	border-radius : 30px;
+}
+
+.Login h1{
+	color : #343432;
+	margin-bottom : 20px;
+	margin-top : -30px;
+}
+button{
+	background : #636361;
+	color : white;
+	width : 90%;
+	padding : 10px;
+	border-radius : 20px;
+	font-size : 15px;
+	margin : 10px 0;
+	border : 0;
+	outline : 0;
+	cursor : pointer;
+}
+
+a{
+	text-decoration : none;
+}
+
+hr{
+	margin-top : 20px;
+	width : 80%;	
+}
+
+img{
+	margin-top : -25px;
+	width : 80%;
+}

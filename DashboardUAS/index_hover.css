@@ -1,0 +1,9 @@
+.row ul a li:hover{
+	background-color: #ffb84d;
+	color: white;
+}
+.list-group a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+}

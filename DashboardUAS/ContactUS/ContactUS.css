@@ -1,0 +1,67 @@
+body{
+	background-color: #575454;
+}
+.container1{
+	background-color: gray;
+	color: white;
+}
+.heading{
+	text-align: center;
+	font-size: 45px;
+	margin-top: 100px;
+	color: white;
+}
+.btn-info{
+	background: transparent;
+	width: 50%;
+	letter-spacing: 2px;
+	transition: all 0.5% ease-in-out;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.btn-info:hover{
+	transform: scale(1.05);
+}
+span{
+	margin-left: 15px;
+}
+nav ul li a:hover{
+	background-color : white;
+	color : black;
+}
+.fas fa-cart-plus{
+	margin-right: 4px;
+}
+.navbar-nav a{
+	font-weight: bold;
+	margin-right: 7px;
+}
+.nav-link{
+	text-transform: uppercase;
+}
+.d-flex{
+	margin-left: 130px;
+}
+.icon i{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.icon a{
+	text-decoration: none;
+	color: black;
+}
+.media a{
+	text-decoration: none;
+	color: white;
+}
+.media ul li{
+	display: inline-block;
+	padding-right: 15px;
+}
+.media ul li a{
+	font-size: 25px;
+}
+hr{
+	width: 80%;
+	color: white;
+}

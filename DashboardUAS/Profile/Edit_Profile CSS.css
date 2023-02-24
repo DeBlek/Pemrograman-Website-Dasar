@@ -1,0 +1,116 @@
+nav ul li a:hover{
+	background-color : #f1f1ef;
+	color : black;
+}
+.fas fa-cart-plus{
+	margin-right: 4px;
+}
+.navbar-nav a{
+	font-weight: bold;
+	margin-right: 7px;
+}
+.nav-link{
+	text-transform: uppercase;
+}
+.d-flex{
+	margin-left: 130px;
+}
+.icon a{
+	text-decoration: none;
+	color: black;
+}
+.icon i{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.title{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 39px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+	margin-bottom: 35px;
+}
+.title::after{
+	content: '';
+	background: green;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.Edit{
+	width : 50%;
+	box-shadow : 0 0 3px 0 rgba(0,0,0,3);
+	background : #f1f1ef;
+	padding : 20px;
+	margin : 10% auto 0;
+	text-align : center;
+	border-radius : 30px;
+}
+
+.input_data{
+	color : #888877;
+	size : 12px;
+}
+
+.input_data input{
+	float : left;
+	color : #888877;
+	outline : none;
+	border : none;
+	background : none;
+	width : 98%;
+}
+
+.input_data button {
+	text-align : center;
+	background : #636361;
+	color : white;
+	width : 25%;
+	padding : 2%;
+	border-radius : 20px;
+	font-size : 15px;
+	border : 0;
+	outline : 0;
+	cursor : pointer;
+	outline : none;
+}
+
+.input_data button:hover {
+	background-color : #737373;
+	color : white;
+}
+
+.input_data [type = "file"]{
+	display : none;
+}
+
+.input_data label{
+	text-align : center;
+}
+
+.input_data img{
+	width : 20%;
+	margin : 3% auto 0;
+	margin-bottom : 1%;
+	box-sizing : border-box;
+	border-radius : 50%;
+	border : 2px solid black;
+	padding : 1%;
+	background-color : white;	
+}
+
+.input_data a{
+	text-decoration : none;
+}
+.input_data hr{
+	width : 98%;	
+	margin-bottom : 5%;
+	background-color : black;
+}

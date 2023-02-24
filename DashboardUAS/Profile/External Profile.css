@@ -1,0 +1,116 @@
+nav ul li a:hover{
+	background-color : #f1f1ef;
+	color : black;
+}
+.fas fa-cart-plus{
+	margin-right: 4px;
+}
+.navbar-nav a{
+	font-weight: bold;
+	margin-right: 7px;
+}
+.nav-link{
+	text-transform: uppercase;
+}
+.d-flex{
+	margin-left: 130px;
+}
+.icon i{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+.icon a{
+	text-decoration: none;
+	color: black;
+}
+.title{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 39px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+	margin-bottom: 35px;
+}
+.title::after{
+	content: '';
+	background: green;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+
+.profile{
+	width : 50%;
+	box-shadow : 0 0 3px 0 rgba(0,0,0,3);
+	background : #f1f1ef;
+	padding : 20px;
+	margin : 10% auto 0;
+	text-align : center;
+	border-radius : 30px;
+}
+
+.profile_img{
+	width : 20%;
+	margin : 5% auto 0;
+	margin-bottom : 1%;
+	box-sizing : border-box;
+	border-radius : 50%;
+	border : 2px solid black;
+	padding : 1%;
+	background-color : white;	
+}
+
+.icon_stat{
+	float : left;
+	margin : 1% auto 0;
+	width : 30px;
+	height : 30px;
+}
+
+.title_text{
+	text-align : left;
+	margin-left : 12%;
+	color : #888877;
+	size : 12px;
+}
+.main_text{
+	text-align : left;
+	margin-left : 12%;
+	color : black;
+	size : 20px;
+}
+.button_profile button:hover{
+	background-color : #737373;
+	color : white;
+}
+.button_profile button{
+	background : #636361;
+	color : white;
+	width : 90%;
+	padding : 10px;
+	border-radius : 20px;
+	font-size : 15px;
+	margin : 10px auto 0;
+	border : 0;
+	outline : 0;
+	cursor : pointer;
+	outline : none;
+}
+
+hr{
+	margin-top : 20px;
+	margin-bottom : 30px;
+	width : 95%;	
+	background-color : black;
+}
+
+a{
+	text-decoration : none;
+}

@@ -1,0 +1,70 @@
+nav ul li a:hover{
+	background-color : white;
+	color : black;
+}
+.fas fa-cart-plus{
+	margin-right: 4px;
+}
+.navbar-nav a{
+	font-weight: bold;
+	margin-right: 7px;
+}
+.nav-link{
+	text-transform: uppercase;
+}
+.d-flex{
+	margin-left: 130px;
+}
+.icon i{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.icon a{
+	text-decoration: none;
+	color: black;
+}
+.title{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 39px;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+	margin-bottom: 35px;
+}
+.title::after{
+	content: '';
+	background: green;
+	width: 80px;
+	height: 5px;
+	border-radius: 5px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.card{
+	margin-left: 23px;
+	margin-top: 6px;
+}
+.card:hover{
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+	transform: scale(1.02);
+}
+.small-container{
+	margin-top: 30px;
+}
+.list-group, .banner{
+	margin-top: 8px;
+}
+footer{
+	background-color: #434A3F;
+	padding: 15px;
+}
+.copyright p{
+	color: white;
+}
+.copyright{
+	background-color: black;
+	text-align: center;
+}
